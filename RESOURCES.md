@@ -13,5 +13,7 @@ Refactoring & Software Design
 http://www.designsmells.com/resources/
 
 Vorbereitung & Infrastruktur:
+
 https://run.pivotal.io/
+
 https://github.com/

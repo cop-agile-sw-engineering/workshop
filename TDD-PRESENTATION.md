@@ -10,6 +10,10 @@ Design -> Code -> Test
 # Vorgehensweise mit TDD
 Design -> Test -> Code
 
+# Missverständnisse zu TDD
+
+- TDD != Unit Tests
+
 # TDD Vorteile
 
 Welche Vorteile bietet TDD?

@@ -32,6 +32,11 @@ REFACTOR: Refaktorisiere den Test (DRY, Abstrahieren wo nötig, Clean Code)
 ## Fake it, till you make it
 ## usw.
 
+## Outside In
+## Inside Out
+
+## ATDD
+
 
 # JUNIT 4/5 vorstellen
 # Anatomie eines Unit Tests

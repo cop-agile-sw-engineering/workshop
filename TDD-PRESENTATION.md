@@ -20,6 +20,7 @@ Welche Vorteile bietet TDD?
 - Refactorings werden sofort gemacht und führen optimalerweise zu Clean Code
 - Man schreibt nur Code der auch wirklich benötigt wird
 - Hohe Testabdeckung
+- Ist eine Form der Dokumentation von fachlichen Anforderungen
 
 # TDD Cycle / Phasen / Mantra
 

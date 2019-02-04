@@ -15,6 +15,8 @@ https://blog.testlodge.com/what-is-tdd/
 
 https://technologyconversations.com/2013/12/20/test-driven-development-tdd-example-walkthrough/
 
+https://8thlight.com/blog/georgina-mcfadyen/2016/06/27/inside-out-tdd-vs-outside-in.html
+
 Refactoring & Software Design
 http://www.designsmells.com/resources/
 

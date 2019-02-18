@@ -77,34 +77,31 @@ public class Calculator {
     public int sumOf(int augend, int addend) {
       return augend + addend;
     }
-  }
-
-  new Calculator().sumOf(1,3)
+}
 ```
 
 #### Test Klasse
 
 ```java
-  public CalculatorTest {
+public CalculatorTest {
 
     @Test
     public should_return_4_when_1_and_3_is_given() {
 
-      // Arrange
-      int augend = 1
-      int addend = 3
-      
-      Calculator sut = new Calculator()
-    
-      // Act
-      int result = sut.sumOf(augend, addend)
+        // Arrange
+        int augend = 1
+        int addend = 3
 
-      // Assert
-      assertEquals(4, result)
+        Calculator sut = new Calculator()
 
+        // Act
+        int result = sut.sumOf(augend, addend)
+
+        // Assert
+        assertEquals(4, result)
     }
 
- }
+}
 ```
 [Siehe auch: ArrangeActAssert](http://wiki.c2.com/?ArrangeActAssert)
 

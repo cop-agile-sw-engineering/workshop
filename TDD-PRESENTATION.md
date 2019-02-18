@@ -59,5 +59,5 @@ REFACTOR: Refaktorisiere den Test (DRY, Abstrahieren wo nötig, Clean Code)
 ## Anatomie eines Unit Tests
 ## Arrange-Act-Assert Pattern
 
-[Siehe auch](http://wiki.c2.com/?ArrangeActAssert)
+[Siehe auch: ArrangeActAssert](http://wiki.c2.com/?ArrangeActAssert)
 # Best Practices

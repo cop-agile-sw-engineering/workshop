@@ -65,7 +65,8 @@ Assert: Das erwartet Resultat wird hier verifiziert.
 
 Bsp:
 
-h4. Klasse
+Klasse
+------
 
 ```java
 public class Calculator {
@@ -77,7 +78,8 @@ public class Calculator {
   new Calculator().sumOf(1,3)
 ```
 
-h4. Test Klasse
+Test Klasse
+------
 
 ```java
   public CalculatorTest {

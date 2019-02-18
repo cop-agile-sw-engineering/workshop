@@ -68,10 +68,9 @@ Hier wird der zu testende Code/Methode aufgerufen
 ### Assert
 Das erwartet Resultat wird hier verifiziert.
 
-Bsp:
+#### Bsp:
 
-Klasse
-------
+#### Klasse
 
 ```java
 public class Calculator {
@@ -83,8 +82,7 @@ public class Calculator {
   new Calculator().sumOf(1,3)
 ```
 
-Test Klasse
-------
+#### Test Klasse
 
 ```java
   public CalculatorTest {
@@ -108,11 +106,6 @@ Test Klasse
 
  }
 ```
-
-
-
-
-
 [Siehe auch: ArrangeActAssert](http://wiki.c2.com/?ArrangeActAssert)
 
 

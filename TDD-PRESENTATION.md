@@ -65,6 +65,8 @@ Assert: Das erwartet Resultat wird hier verifiziert.
 
 Bsp:
 
+h4. Klasse
+
 ```java
 public class Calculator {
     public int sumOf(int augend, int addend) {
@@ -75,6 +77,7 @@ public class Calculator {
   new Calculator().sumOf(1,3)
 ```
 
+h4. Test Klasse
 
 ```java
   public CalculatorTest {

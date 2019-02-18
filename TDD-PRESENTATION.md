@@ -59,9 +59,14 @@ REFACTOR: Refaktorisiere den Test (DRY, Abstrahieren wo nötig, Clean Code)
 ## Anatomie eines Unit Tests
 ## Arrange-Act-Assert Pattern
 
-Arrange: In diesem Bereich werden alle Vorbedingungen hergestellt.
-Act: Hier wird der zu testende Code/Methode aufgerufen
-Assert: Das erwartet Resultat wird hier verifiziert.
+### Arrange 
+In diesem Bereich werden alle Vorbedingungen hergestellt.
+
+### Act
+Hier wird der zu testende Code/Methode aufgerufen
+
+### Assert
+Das erwartet Resultat wird hier verifiziert.
 
 Bsp:
 

@@ -58,4 +58,6 @@ REFACTOR: Refaktorisiere den Test (DRY, Abstrahieren wo nötig, Clean Code)
 ## JUNIT 4/5 vorstellen
 ## Anatomie eines Unit Tests
 ## Arrange-Act-Assert Pattern
+
+[Siehe auch](http://wiki.c2.com/?ArrangeActAssert)
 # Best Practices

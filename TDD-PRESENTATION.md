@@ -47,6 +47,13 @@ REFACTOR: Refaktorisiere den Test (DRY, Abstrahieren wo nötig, Clean Code)
 3. You are not allowed to write any more production code than is sufficient to pass the one failing unit test.
 
 ## Outside In
+
+### Design von aussen nach innen
+
+Hierbei wird das Design so gestaltet das man eine Aussage darüber trifft wie ein Benutzer mit dem System interagieren möchte. Man kann dies auch als API First Prinzip betrachten.
+
+Während der Arbeit von aussen nach innen werden auch die Kollaboratoren der Top Level Klasse bestimmt. Der Vorteil der Methode ist das man die Kollaboratoren gut mocken kann und die Implmentierung erst in einem der nächsten Schritt im TT Flow ausprogrammmiert wird.
+
 ## Inside Out
 
 ## ATDD

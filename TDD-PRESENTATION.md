@@ -52,7 +52,9 @@ REFACTOR: Refaktorisiere den Test (DRY, Abstrahieren wo nötig, Clean Code)
 
 Hierbei wird das Design so gestaltet das man eine Aussage darüber trifft wie ein Benutzer mit dem System interagieren möchte. Man kann dies auch als API First Prinzip betrachten.
 
-Während der Arbeit von aussen nach innen werden auch die Kollaboratoren der Top Level Klasse bestimmt. Der Vorteil der Methode ist das man die Kollaboratoren gut mocken kann und die Implmentierung erst in einem der nächsten Schritt im TT Flow ausprogrammmiert wird.
+Während der Arbeit von aussen nach innen werden auch die Kollaboratoren der Top Level Klasse bestimmt. Der Vorteil der Methode ist das man die Kollaboratoren gut mocken kann und die Implmentierung erst in einem der nächsten Schritt im TDD Flow ausprogrammmiert wird. In diesem Zuge kann man mit den Mocks/Interfaces noch so weit experimentieren bis das Design passt.
+
+
 
 ## Inside Out
 

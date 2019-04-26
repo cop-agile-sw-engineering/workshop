@@ -1,11 +1,18 @@
-
+---
+author: CoP - Agile Software Engineering
+title: TDD 101
+date: April 26, 2019
+---
 # Was ist TDD
 
 TDD auch Test Driven Development ist eine inkrementelle Strategie in der Software Entwicklung
 um über Tests das Software Design zu lenken.
 
 # Vorgehensweise ohne TDD
+
 Design -> Code -> Test
+ 
+![alt text](assets/design-code-test.jpg "Logo Title Text 1")
 
 # Vorgehensweise mit TDD
 Design -> Test -> Code
@@ -22,9 +29,15 @@ Welche Vorteile bietet TDD?
 - Durch getrennte Phasen ist es möglich jede Phase fokussierter zu bearbeiten.
 - Der Code wird testbar
 - Refactorings werden sofort gemacht und führen optimalerweise zu Clean Code
+
+# TDD Vorteile
+
+Welche Vorteile bietet TDD?
+
 - Man schreibt nur Code der auch wirklich benötigt wird
 - Hohe Testabdeckung
 - Ist eine Form der Dokumentation von fachlichen Anforderungen
+
 
 # TDD Cycle / Phasen / Mantra
 

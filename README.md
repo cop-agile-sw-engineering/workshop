@@ -34,7 +34,7 @@
     * 13:30 bis 13:45 Kaffee
     * 13:45 bis 14:45 Fizz-Buzz mit weiteren Constraints
     * 14:45 bis 15:00 Kaffee
-    * 15:00 bis 16:00 TDD as you ment it
+    * 15:00 bis 16:00 TDD as you meant it
     * 16:00 bis 16:45 Mob-Programming
     * 16:45 bis 17:00 Feedback
     * 17:00 Ende Tag 2

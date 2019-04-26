@@ -12,10 +12,17 @@ um über Tests das Software Design zu lenken.
 
 Design -> Code -> Test
  
-![alt text](assets/design-code-test.jpg "Logo Title Text 1")
+![Design Code Test](assets/design-code-test.jpg "Logo Title Text 1")
 
 # Vorgehensweise mit TDD
+
 Design -> Test -> Code
+
+::: notes
+
+This is my note.
+
+:::
 
 # Missverständnisse zu TDD
 
@@ -23,27 +30,21 @@ Design -> Test -> Code
 
 # TDD Vorteile
 
-Welche Vorteile bietet TDD?
-
-- Baby Steps (macht die Entwicklung beherrschbarer)
-- Durch getrennte Phasen ist es möglich jede Phase fokussierter zu bearbeiten.
+- Baby Steps (divide and conquer)
+- Getrennte Phasen = Fokus.
 - Der Code wird testbar
-- Refactorings werden sofort gemacht und führen optimalerweise zu Clean Code
-
-# TDD Vorteile
-
-Welche Vorteile bietet TDD?
-
+- Refactorings sofort = Clean Code
 - Man schreibt nur Code der auch wirklich benötigt wird
 - Hohe Testabdeckung
-- Ist eine Form der Dokumentation von fachlichen Anforderungen
+- Ist Dokumentation von fachlichen Anforderungen
 
+# TDD Cycle
 
-# TDD Cycle / Phasen / Mantra
+![TDD Cycle](assets/dummy_600_400.png "TDD Cycle")
 
-Bild vom TDD Cycle
+---
 
-## Cycle
+# Cycle
 
 RED: Schreibe einen Test der fehlschlägt.
 
@@ -51,7 +52,7 @@ GREEN: Schreibe sowenig Code wie möglich damit der Test erfolgreich durchläuft
 
 REFACTOR: Refaktorisiere den Test (DRY, Abstrahieren wo nötig, Clean Code)
 
-## 3 Laws of TDD
+# 3 Laws of TDD
 
 1. You are not allowed to write any production code unless it is to make a failing unit test pass
 
@@ -59,21 +60,24 @@ REFACTOR: Refaktorisiere den Test (DRY, Abstrahieren wo nötig, Clean Code)
 
 3. You are not allowed to write any more production code than is sufficient to pass the one failing unit test.
 
-## Outside In
+# Outside In
 
 ### Design von aussen nach innen
 
-Hierbei wird das Design so gestaltet das man eine Aussage darüber trifft wie ein Benutzer mit dem System interagieren möchte. Man kann dies auch als API First Prinzip betrachten.
+- Wie möchte ein Nutzer/Entwickler mit dem System interagieren! (API First Prinzip)
+- Bestimmung der Kollaboratoren der Top Level Klasse. 
+- Fake it until you make it (Mock, feste Werte) 
+- Experimente mit den Mocks bis API stabil ist und passt
 
-Während der Arbeit von aussen nach innen werden auch die Kollaboratoren der Top Level Klasse bestimmt. Der Vorteil der Methode ist das man die Kollaboratoren gut mocken kann und die Implmentierung erst in einem der nächsten Schritt im TDD Flow ausprogrammmiert wird. In diesem Zuge kann man mit den Mocks/Interfaces noch so weit experimentieren bis das Design passt.
 
 
+# Inside Out
 
-## Inside Out
+# ATDD
 
-## ATDD
+---
 
-## Patterns for Test Driven Development
+# Patterns for Test Driven Development
 
 
 # Testing
